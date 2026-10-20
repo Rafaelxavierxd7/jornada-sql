@@ -14,14 +14,23 @@ Meu primeiro exercício trabalha com:
 - Cálculos de receita, custo e resultado de vendas.
 - A diferença entre escrever um comando e executá-lo.
 
-[Ver o primeiro exercício](tabelas%20criadas/variavel%20simples%20sql.sql)
+[Ver o primeiro exercício](SQL/variavel%20simples%20sql.sql)
 
 ## Ambiente atual
 
 Uso o MySQL Workbench conectado ao MariaDB do XAMPP.
 
+## Exercícios de criação de tabelas
+
+Comecei a praticar a criação de bancos e tabelas. Os arquivos abaixo registram minhas tentativas atuais, ainda em estudo e revisão:
+
+- [Tabela de pessoas](SQL/tabela_simples.sql): tipos de dados, chave primária e identificador com incremento automático.
+- [Cadastro de funcionários](SQL/tabela%20de%20cadastro.sql): criação de banco, campos obrigatórios, valor único e valor padrão.
+
+Os scripts foram preservados como escrevi. Ainda preciso revisar a escolha do banco antes de criar cada tabela: `tabela_simples.sql` pressupõe que o banco `cadastro` já existe, e `tabela de cadastro.sql` cria `cadastro_aula4`, mas não seleciona esse banco com `USE`.
+
 ## Próximos passos
 
-Quero avançar para criação e modelagem de tabelas, filtros, relacionamentos, JOINs e agregações. Com essa base, pretendo desenvolver projetos de análise de dados com perguntas de negócio e conclusões fundamentadas.
+Quero consolidar a criação e modelagem de tabelas e avançar para filtros, relacionamentos, JOINs e agregações. Com essa base, pretendo desenvolver projetos de análise de dados com perguntas de negócio e conclusões fundamentadas.
 
 Este é um registro de aprendizado em andamento. Cada exercício e cada correção fazem parte da minha evolução.
